@@ -1,0 +1,33 @@
+load --os ../spl/spl_progs/stage24/os_startup.xsm
+load --library ../expl/library.lib
+load --module 0 ../spl/spl_progs/stage24/resource_manager_module_MOD0.xsm
+load --module 1 ../spl/spl_progs/stage24/process_manager_module_MOD1.xsm
+load --module 2 ../spl/spl_progs/stage24/memory_manager_module_MOD2.xsm
+load --module 3 ../spl/spl_progs/stage24/file_manager_module_MOD3.xsm
+load --module 4 ../spl/spl_progs/stage24/device_manager_module_MOD4.xsm
+load --module 5 ../spl/spl_progs/stage24/scheduler_module_MOD5.xsm
+load --module 7 ../spl/spl_progs/stage24/boot_module_MOD7.xsm
+load --int=4 ../spl/spl_progs/stage24/INT4.xsm
+load --int=5 ../spl/spl_progs/stage24/INT5.xsm
+load --int=6 ../spl/spl_progs/stage24/INT6.xsm
+load --int=7 ../spl/spl_progs/stage24/INT7.xsm
+load --int=8 ../spl/spl_progs/stage24/INT8.xsm
+load --int=9 ../spl/spl_progs/stage24/INT9.xsm
+load --int=10 ../spl/spl_progs/stage24/INT10.xsm
+load --int=11 ../spl/spl_progs/stage24/INT11.xsm
+load --int=13 ../spl/spl_progs/stage24/INT13.xsm
+load --int=14 ../spl/spl_progs/stage24/INT14.xsm
+load --int=15 ../spl/spl_progs/stage24/INT15.xsm
+load --int=console ../spl/spl_progs/stage24/console_interrupt.xsm
+load --int=disk ../spl/spl_progs/stage24/disk_interrupt.xsm
+load --int=timer ../spl/spl_progs/stage24/timer.xsm
+load --exhandler ../spl/spl_progs/stage24/exhandler.xsm
+load --init ../expl/expl_progs/stage24/shell.xsm
+load --idle ../expl/expl_progs/stage24/idle_program.xsm
+load --exec ../expl/expl_progs/stage24/pid.xsm
+load --exec ../expl/expl_progs/stage24/A1_24.xsm
+load --exec ../expl/expl_progs/stage24/A2_24.xsm
+load --exec ../expl/expl_progs/stage24/eval5.xsm
+load --data ../expl/expl_progs/stage24/number.dat
+load --data ../expl/expl_progs/stage24/sample.dat
+load --data ../expl/expl_progs/stage24/num_100.dat

@@ -1,0 +1,25 @@
+load --os ../spl/spl_progs/stage21_new/os_startup.xsm
+load --init ../expl/expl_progs/stage21/shell.xsm
+load --exhandler ../spl/spl_progs/stage21_new/exhandler.xsm
+load --library ../expl/library.lib
+load --idle ../expl/expl_progs/stage21/idle_program.xsm
+load --module 1 ../spl/spl_progs/stage21_new/process_manager_module_MOD1.xsm
+load --module 2 ../spl/spl_progs/stage21_new/memory_manager_module_MOD2.xsm
+load --module 7 ../spl/spl_progs/stage21_new/boot_module_MOD7.xsm
+load --module 5 ../spl/spl_progs/stage21_new/scheduler_module_MOD5.xsm
+load --module 0 ../spl/spl_progs/stage21_new/resource_manager_module_MOD0.xsm
+load --module 4 ../spl/spl_progs/stage21_new/device_manager_module_MOD4.xsm
+load --int=6 ../spl/spl_progs/stage21_new/INT6.xsm
+load --int=console ../spl/spl_progs/stage21_new/console_interrupt.xsm
+load --int=9 ../spl/spl_progs/stage21_new/INT9.xsm
+load --int=disk ../spl/spl_progs/stage21_new/disk_interrupt.xsm
+load --int=7 ../spl/spl_progs/stage21_new/INT7.xsm
+load --int=10 ../spl/spl_progs/stage21_new/INT10.xsm
+load --int=timer ../spl/spl_progs/stage21_new/timer.xsm
+load --int=8 ../spl/spl_progs/stage21_new/INT8.xsm
+load --int=11 ../spl/spl_progs/stage21_new/INT11.xsm
+load --int=15 ../spl/spl_progs/stage21_new/INT15.xsm
+load --exec ../expl/expl_progs/stage21/even.xsm
+load --exec ../expl/expl_progs/stage21/odd.xsm
+load --exec ../expl/expl_progs/stage21/fork.xsm
+load --exec ../expl/expl_progs/stage21/pid.xsm

@@ -1,0 +1,19 @@
+load --os ../spl/spl_progs/stage18/os_startup.xsm
+load --init ../expl/expl_progs/stage18/readfile.xsm
+load --int=timer ../spl/spl_progs/stage18/timer.xsm
+load --int=10 ../spl/spl_progs/stage18/haltprog.xsm
+load --exhandler ../spl/spl_progs/stage18/haltprog.xsm
+load --library ../expl/library.lib
+load --int=7 ../spl/spl_progs/stage18/INT7.xsm
+load --idle ../expl/expl_progs/stage18/idle_program.xsm
+load --module 7 ../spl/spl_progs/stage18/boot_module_MOD7.xsm
+load --module 5 ../spl/spl_progs/stage18/scheduler_module_MOD5.xsm
+load --module 0 ../spl/spl_progs/stage18/resource_manager_module_MOD0.xsm
+load --module 4 ../spl/spl_progs/stage18/device_manager_module_MOD4.xsm
+load --int=6 ../spl/spl_progs/stage18/INT6.xsm
+load --int=console ../spl/spl_progs/stage18/console_interrupt.xsm
+load --module 1 ../spl/spl_progs/stage18/process_manager_module_MOD1.xsm
+load --module 2 ../spl/spl_progs/stage18/memory_manager_module_MOD2.xsm
+load --int=9 ../spl/spl_progs/stage18/INT9.xsm
+load --exec ../expl/expl_progs/stage18/odd.xsm
+load --int=disk ../spl/spl_progs/stage18/disk_interrupt.xsm
